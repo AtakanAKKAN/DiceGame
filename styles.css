@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  margin: auto;
   text-align: center;
 }
 
@@ -26,6 +25,16 @@ p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
+  position: relative;
+  top: -25px;
+}
+
+.score{
+  font-size: 1.5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  top: -50px;
 }
 
 img {
@@ -63,7 +72,7 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 1%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
