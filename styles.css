@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 30px 0px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
@@ -32,6 +32,36 @@ img {
   width: 80%;
 }
 
+.btn{
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.buton{
+  font-size: 2rem;
+  background-color: #4ECCA3;
+  text-shadow: 2px 0 #232931;
+  text-decoration: none;
+  border-color: #4ECCA3;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: .4s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.buton:hover{
+  color: rgb(78, 204, 163);
+  background-color: transparent;
+  box-shadow: 0 12px 16px 0 rgba(78,204,163,0.24), 0 17px 50px 0 rgba(78, 204, 163,0.19);
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
@@ -39,3 +69,4 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
